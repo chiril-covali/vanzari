@@ -412,3 +412,100 @@ footer {
 #detailsContainer {
     animation: fadeIn 0.5s ease forwards;
 }
+
+/* P9c8b */
+#dataSection {
+    margin-top: 2em;
+}
+
+#dataList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#dataList li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#dataList li:last-child {
+    border-bottom: none;
+}
+
+#dataList button {
+    padding: 6px 12px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+/* Pbbac */
+#inputSection {
+    margin-top: 2em;
+}
+
+#inputSection form {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputSection label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+#inputSection input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#inputSection button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-right: 5px;
+}
+
+#inputSection button:hover {
+    background-color: #365899;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+#editSection {
+    margin-top: 2em;
+}
+
+#editList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#editList li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#editList li:last-child {
+    border-bottom: none;
+}
+
+#editList button {
+    padding: 6px 12px;
+    margin-left: 5px;
+    font-size: 14px;
+}

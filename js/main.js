@@ -38,6 +38,27 @@ document.addEventListener("DOMContentLoaded", function () {
             btn.classList.remove("active");
         }
     });
+
+    // Adăugăm event listener pentru formularul de introducere date
+    document.getElementById("dataForm").addEventListener("submit", function(e) {
+        e.preventDefault();
+        let date = document.getElementById("dateInput").value;
+        let manager = document.getElementById("managerInput").value;
+        let amount = parseFloat(document.getElementById("amountInput").value);
+        if (isNaN(amount)) return;
+        let entry = date + ',' + manager + ',' + amount + '\n';
+        let dataCSV = localStorage.getItem("dataCSV") || "";
+        dataCSV += entry;
+        localStorage.setItem("dataCSV", dataCSV);
+        
+        // Salvăm și în data.csv prin API
+        saveToCSV(dataCSV);
+        
+        document.getElementById("dataForm").reset();
+        loadEntries();
+    });
+
+    loadEntries();
 });
 
 function processData(csvContent) {
@@ -206,4 +227,63 @@ function processData(csvContent) {
             }
         }
     });
+}
+
+function loadEntries() {
+    let dataCSV = localStorage.getItem("dataCSV") || "";
+    processData(dataCSV);
+}
+
+function deleteEntry(index) {
+    let dataCSV = localStorage.getItem("dataCSV") || "";
+    let rows = dataCSV.trim().split('\n');
+    rows.splice(index, 1);
+    let newData = rows.length ? rows.join('\n') + '\n' : '';
+    localStorage.setItem("dataCSV", newData);
+    
+    // Salvăm și în data.csv
+    saveToCSV(newData);
+    
+    loadEntries();
+}
+
+function editEntry(index) {
+    let dataCSV = localStorage.getItem("dataCSV") || "";
+    let rows = dataCSV.trim().split('\n');
+    let parts = rows[index].split(',');
+    let newAmount = prompt("Introdu noua sumă:", parts[2]);
+    if (newAmount === null) return;
+    newAmount = parseFloat(newAmount);
+    if (isNaN(newAmount)) {
+        alert("Suma introdusă este invalidă!");
+        return;
+    }
+    parts[2] = newAmount;
+    rows[index] = parts.join(',');
+    let newData = rows.join('\n') + (rows.length ? '\n' : '');
+    localStorage.setItem("dataCSV", newData);
+    
+    // Salvăm și în data.csv
+    saveToCSV(newData);
+    
+    loadEntries();
+}
+
+// Funcție simulată pentru a salva în data.csv
+// În mod normal, aceasta ar trebui să trimită datele la server
+function saveToCSV(data) {
+    console.log("Salvez în data.csv:", data);
+    
+    // În implementarea reală, aici ar trebui să fie o cerere AJAX către server
+    // pentru a scrie în fișierul data.csv
+    
+    // Exemplu de implementare simplă (nu va funcționa în browser din cauza restricțiilor)
+    // Această parte ar trebui implementată pe server
+    try {
+        // Simulăm salvarea fără a afișa alert
+        // alert("Datele au fost salvate cu succes!");
+    } catch (error) {
+        console.error("Eroare la salvarea datelor:", error);
+        alert("Eroare la salvarea datelor: " + error.message);
+    }
 }
