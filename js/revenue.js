@@ -154,21 +154,21 @@ function editEntry(index) {
     loadEntries();
 }
 
-// Funcție simulată pentru a salva în data.csv
-// În mod normal, aceasta ar trebui să trimită datele la server
+// Funcție pentru a salva în data.csv printr-o cerere POST către server
 function saveToCSV(data) {
-    console.log("Salvez în data.csv:", data);
-    
-    // În implementarea reală, aici ar trebui să fie o cerere AJAX către server
-    // pentru a scrie în fișierul data.csv
-    
-    // Exemplu de implementare simplă (nu va funcționa în browser din cauza restricțiilor)
-    // Această parte ar trebui implementată pe server
-    try {
-        // Simulăm salvarea fără a afișa alert
-        // alert("Datele au fost salvate cu succes!");
-    } catch (error) {
+    fetch('save_data.php', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/x-www-form-urlencoded',
+        },
+        body: 'data=' + encodeURIComponent(data)
+    })
+    .then(response => response.text())
+    .then(result => {
+        console.log("Datele au fost salvate cu succes:", result);
+    })
+    .catch(error => {
         console.error("Eroare la salvarea datelor:", error);
         alert("Eroare la salvarea datelor: " + error.message);
-    }
+    });
 }
