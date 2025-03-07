@@ -172,26 +172,23 @@ function editEntry(index) {
     loadEntries();
 }
 
-// Replace the simulated saveToCSV function with this real implementation
 function saveToCSV(data) {
-    // Create a FormData object to send the data to the server
-    let formData = new FormData();
-    formData.append('data', data);
-    
-    // Send the data to a PHP handler that will write to data.csv
+    // Send the data directly as text
     fetch('./api/save_data.php', {
         method: 'POST',
-        body: formData
+        body: data,
+        headers: {
+            'Content-Type': 'text/plain'
+        }
     })
     .then(response => {
         if (!response.ok) {
-            throw new Error('Network response was not ok');
+            throw new Error('Network response was not ok: ' + response.status);
         }
         return response.text();
     })
     .then(result => {
         console.log("Data saved successfully:", result);
-        // We don't need to show an alert for successful operations
     })
     .catch(error => {
         console.error("Error saving data:", error);
