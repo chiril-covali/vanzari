@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
-    let today = new Date().toISOString().split('T')[0];
+    // Ensure proper date format YYYY-MM-DD
+    let today = new Date();
+    let formattedDate = today.getFullYear() + '-' + 
+                       String(today.getMonth() + 1).padStart(2, '0') + '-' + 
+                       String(today.getDate()).padStart(2, '0');
+                       
     // Resetare zilnică
-    if (localStorage.getItem("today") !== today) {
-        localStorage.setItem("today", today);
+    if (localStorage.getItem("today") !== formattedDate) {
+        localStorage.setItem("today", formattedDate);
         localStorage.removeItem("dataCSV");
     }
 
@@ -53,7 +58,14 @@ document.addEventListener("DOMContentLoaded", function () {
         let manager = document.getElementById("managerSelect").value;
         let amount = parseFloat(document.getElementById("amountInput").value);
         if (isNaN(amount)) return;
-        let entry = today + ',' + manager + ',' + amount + '\n';
+        
+        // Ensure proper date format YYYY-MM-DD
+        let today = new Date();
+        let formattedDate = today.getFullYear() + '-' + 
+                            String(today.getMonth() + 1).padStart(2, '0') + '-' + 
+                            String(today.getDate()).padStart(2, '0');
+        
+        let entry = formattedDate + ',' + manager + ',' + amount + '\n';
         let dataCSV = localStorage.getItem("dataCSV") || "";
         dataCSV += entry;
         localStorage.setItem("dataCSV", dataCSV);
@@ -71,7 +83,13 @@ document.addEventListener("DOMContentLoaded", function () {
 function loadEntries() {
     let entriesList = document.getElementById("entriesList");
     entriesList.innerHTML = "";
-    let today = new Date().toISOString().split('T')[0];
+    
+    // Ensure proper date format YYYY-MM-DD
+    let today = new Date();
+    let formattedDate = today.getFullYear() + '-' + 
+                       String(today.getMonth() + 1).padStart(2, '0') + '-' + 
+                       String(today.getDate()).padStart(2, '0');
+    
     let dataCSV = localStorage.getItem("dataCSV") || "";
     let rows = dataCSV.trim().split('\n').filter(row => row !== "").map(row => {
         let parts = row.split(',');
@@ -79,7 +97,7 @@ function loadEntries() {
     });
     
     // Filtrăm doar intrările de astăzi pentru afișare
-    let todayEntries = rows.filter(entry => entry.date === today);
+    let todayEntries = rows.filter(entry => entry.date === formattedDate);
     
     todayEntries.forEach((entry, index) => {
         let li = document.createElement("li");
