@@ -172,21 +172,29 @@ function editEntry(index) {
     loadEntries();
 }
 
-// Funcție simulată pentru a salva în data.csv
-// În mod normal, aceasta ar trebui să trimită datele la server
+// Replace the simulated saveToCSV function with this real implementation
 function saveToCSV(data) {
-    console.log("Salvez în data.csv:", data);
+    // Create a FormData object to send the data to the server
+    let formData = new FormData();
+    formData.append('data', data);
     
-    // În implementarea reală, aici ar trebui să fie o cerere AJAX către server
-    // pentru a scrie în fișierul data.csv
-    
-    // Exemplu de implementare simplă (nu va funcționa în browser din cauza restricțiilor)
-    // Această parte ar trebui implementată pe server
-    try {
-        // Simulăm salvarea fără a afișa alert
-        // alert("Datele au fost salvate cu succes!");
-    } catch (error) {
-        console.error("Eroare la salvarea datelor:", error);
+    // Send the data to a PHP handler that will write to data.csv
+    fetch('./api/save_data.php', {
+        method: 'POST',
+        body: formData
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.text();
+    })
+    .then(result => {
+        console.log("Data saved successfully:", result);
+        // We don't need to show an alert for successful operations
+    })
+    .catch(error => {
+        console.error("Error saving data:", error);
         alert("Eroare la salvarea datelor: " + error.message);
-    }
+    });
 }
