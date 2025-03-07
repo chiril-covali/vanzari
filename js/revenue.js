@@ -102,6 +102,9 @@ function loadEntries() {
     if (todayEntries.length === 0) {
         entriesList.innerHTML = "<li>Nu există ordine de plată pentru astăzi</li>";
     }
+
+    // Update the graph
+    updateGraph(rows);
 }
 
 function findOriginalIndex(allRows, entry) {
@@ -170,5 +173,47 @@ function saveToCSV(data) {
     .catch(error => {
         console.error("Eroare la salvarea datelor:", error);
         alert("Eroare la salvarea datelor: " + error.message);
+    });
+}
+
+// Function to update the graph
+function updateGraph(rows) {
+    let today = new Date().toISOString().split('T')[0];
+    let todayRows = rows.filter(r => r.date === today);
+
+    let totalsByManager = {};
+    todayRows.forEach(r => {
+        totalsByManager[r.manager] = (totalsByManager[r.manager] || 0) + r.amount;
+    });
+
+    let labels = Object.keys(totalsByManager);
+    let data = Object.values(totalsByManager);
+
+    let ctx = document.getElementById("revenueChart").getContext("2d");
+    new Chart(ctx, {
+        type: 'bar',
+        data: {
+            labels: labels,
+            datasets: [{
+                label: 'Suma ordine de plată (lei)',
+                data: data,
+                backgroundColor: 'rgba(75, 192, 192, 0.6)',
+                borderColor: 'rgba(75, 192, 192, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    title: {
+                        display: true,
+                        text: 'Suma (lei)'
+                    }
+                }
+            }
+        }
     });
 }
