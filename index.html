@@ -67,6 +67,24 @@
         <section>
             <a href="revenue.html" class="action-button">Intră la pagina de introducere/editare</a>
         </section>
+        <section id="inputSection">
+            <h2>Introducere date</h2>
+            <form id="dataForm">
+                <label for="dateInput">Data:</label>
+                <input type="date" id="dateInput" required>
+                <label for="managerInput">Manager:</label>
+                <input type="text" id="managerInput" required>
+                <label for="amountInput">Suma:</label>
+                <input type="number" id="amountInput" step="0.01" required>
+                <button type="submit">Adaugă</button>
+            </form>
+        </section>
+        <section id="dataSection">
+            <h2>Lista de date</h2>
+            <ul id="dataList">
+                <!-- Entries will be populated by JavaScript -->
+            </ul>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Echipa Matematica.md și Examen.md</p>
