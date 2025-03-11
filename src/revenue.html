@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adăugare Ordine de Plată</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="matex.jpg" alt="Logo" class="logo">
+                </a>
+            </div>
+            <h1>Introducere Ordine de plată</h1>
+        </div>
+    </header>
+    <main>
+        <form id="revenueForm">
+            <div class="form-group">
+                <label for="managerSelect">Manager:</label>
+                <select id="managerSelect" required>
+                    <option value="">Selectează manager</option>
+                    <!-- Options will be populated by JavaScript -->
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="amountInput">Suma (MDL):</label>
+                <input type="number" id="amountInput" required min="0" step="0.01">
+            </div>
+            <button type="submit">Adaugă</button>
+        </form>
+        <section id="entriesSection">
+            <h2>Ordine de plată de astăzi</h2>
+            <ul id="entriesList"></ul>
+        </section>
+        <a href="index.html">Înapoi la dashboard</a>
+    </main>
+    <div id="notification" class="notification">
+        <div class="notification-content">
+            <h3>Ordin de plată adăugat</h3>
+            <p id="notificationManager"></p>
+            <p id="notificationAmount"></p>
+            <p id="notificationTotal"></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Echipa Matematica.md și Examen.md</p>
+    </footer>
+</div>
+<!-- Socket.IO client library -->
+<script src="/socket.io/socket.io.js"></script>
+<script src="js/revenue.js"></script>
+</body>
+</html>

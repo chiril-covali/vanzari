@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Favicon links -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <!-- Include Chart.js din CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <!-- Add this in the head section if not already present -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>
+    <!-- Font Awesome pentru iconițe -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo-container">
+                <a href="index.html">
+                    <img src="matex.jpg" alt="Logo" class="logo">
+                </a>
+            </div>
+            <h1>Dashboard Ordine de plată</h1>
+        </div>
+    </header>
+    <main>
+        <section id="diagram">
+            <div id="chartContainer" style="width: 100%; overflow-x: auto;">
+                <canvas id="revenueChart"></canvas>
+            </div>
+        </section>
+        <section id="totals">
+            <div class="section-header">
+                <h2 class="section-title">Total Ordine de plată</h2>
+                <!-- Speaker toggle button -->
+                <button id="toggleSpeaker" class="toggle-btn">
+                    <i class="fas fa-volume-mute"></i>
+                </button>
+                <button id="toggleDetailsBtn" class="toggle-btn">
+                    <i class="fas fa-chevron-down"></i> Afișare date sumative
+                </button>
+            </div>
+            <div id="totalRevenue" class="total-box"></div>
+            
+            <div id="detailsContainer" style="display: none;">
+                <h2 class="section-title">Total zilnic per manager</h2>
+                <div class="table-container">
+                    <table id="dailyTable" class="data-table">
+                        <thead>
+                            <tr>
+                                <th>Manager</th>
+                                <th>Suma totală</th>
+                                <th>Număr ordine</th>
+                            </tr>
+                        </thead>
+                        <tbody id="dailyTableBody">
+                            <!-- Rows will be populated by JavaScript -->
+                        </tbody>
+                        <tfoot id="tableSummary">
+                            <!-- Summary row will be populated by JavaScript -->
+                        </tfoot>
+                    </table>
+                </div>
+                <div id="dailyTotals" class="cards-container">
+                    <!-- Cards will be populated by JavaScript -->
+                </div>
+            </div>
+        </section>
+        <section>
+            <a href="revenue.html" class="action-button">Intră la pagina de introducere/editare</a>
+        </section>
+    </main>
+    <!-- Socket.IO client library -->
+    <script src="/socket.io/socket.io.js"></script>
+    <!-- Chart functionality -->
+    <script src="js/chart.js"></script>
+    <!-- Main application code -->
+    <script src="js/main.js"></script>
+    <!-- Add before closing body tag -->
+    <script src="js/celebrations.js"></script>
+</body>
+</html>
