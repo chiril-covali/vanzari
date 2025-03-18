@@ -1,0 +1,38 @@
+{
+  "teams": [
+    {
+      "name": "Echipa 1",
+      "members": ["ANGHEL CRISTINA", "ALEXANDRU LIPOVAN", "CAROLINA VIERU"]
+    },
+    {
+      "name": "Echipa 2",
+      "members": ["LAVINIA MUNTEANU", "MIHAELA MEREUTA", "ARIADNA P"]
+    },
+    {
+      "name": "Echipa 3",
+      "members": ["CRISTINA CERCHEZ", "BELOUSOV DOINA", "CRISTINA BALATEL", "CRISTINA CERCEZ"]
+    }
+  ],
+  "manager_mapping": {
+    "11940355": {
+      "name": "ALEXANDRU LIPOVAN",
+      "team": "Echipa 1"
+    },
+    "12455256": {
+      "name": "ANGHEL CRISTINA",
+      "team": "Echipa 1"
+    },
+    "11747283": {
+      "name": "MIHAELA MEREUTA",
+      "team": "Echipa 2"
+    },
+    "11875143": {
+      "name": "LAVINIA MUNTEANU",
+      "team": "Echipa 2"
+    },
+    "12014055": {
+      "name": "CRISTINA CERCEZ",
+      "team": "Echipa 3"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vanzari-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard pentru vânzări",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "fetch-data": "node src/fetchBillList.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.6.7",
+    "node-schedule": "^2.1.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

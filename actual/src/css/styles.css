@@ -1,0 +1,640 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+}
+
+header {
+    background-color: #4267B2;
+    color: white;
+    padding: 0.5em;  /* Redus de la 1em la 0.5em */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    margin-right: 15px;
+}
+
+.logo {
+    width: 40px;  /* Redus de la 80px la 40px */
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    font-size: 1.5em;  /* Reducere font header */
+    margin: 0;
+}
+
+main {
+    padding: 1.5em;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin: 1em 0;
+}
+
+/* Stilizare canvas pentru diagrama mai mare */
+#diagram {
+    height: 500px;  /* Înălțime fixată pentru diagrama */
+    margin-bottom: 2em;
+}
+
+#revenueChart {
+    width: 100%;
+    height: 100%;
+}
+
+/* Stilizare formular */
+form {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus, select:focus {
+    border-color: #4267B2;
+    outline: none;
+    box-shadow: 0 0 5px rgba(66, 103, 178, 0.5);
+}
+
+/* Stilizare butoane */
+button {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    margin-right: 5px;
+}
+
+button:hover {
+    background-color: #365899;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+button[type="submit"] {
+    background-color: #42b72a;
+}
+
+button[type="submit"]:hover {
+    background-color: #36a420;
+}
+
+/* Stilizare link-uri */
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4267B2;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+a:hover {
+    background-color: #ebedf0;
+    text-decoration: underline;
+}
+
+.action-button {
+    background-color: #4267B2;
+    color: white;
+    padding: 10px 16px;
+    font-weight: bold;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    display: block;
+    width: max-content;
+    margin: 20px auto;
+}
+
+.action-button:hover {
+    background-color: #365899;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
+/* Stilizare listă de intrări */
+#entriesList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#entriesList li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#entriesList li:last-child {
+    border-bottom: none;
+}
+
+/* Stilizare butoane de editare/ștergere */
+#entriesList button {
+    padding: 6px 12px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em;  /* Redus de la 1em la 0.5em */
+    background-color: #f0f2f5;
+    border-top: 1px solid #ddd;
+    color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    main {
+        padding: 1em;
+        margin: 10px;
+    }
+    
+    header h1 {
+        font-size: 1.3em;
+    }
+    
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    
+    .header-container {
+        flex-direction: column;
+    }
+    
+    .logo-container {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    
+    #diagram {
+        height: 300px;  /* Mai mic pe dispozitive mobile */
+    }
+}
+
+/* Add these styles to fix overlapping issues */
+.section-title {
+    margin-top: 1.5em;
+    clear: both;
+}
+
+/* Style for delete button */
+.delete-button {
+    background-color: #e41e3f !important;
+}
+
+.delete-button:hover {
+    background-color: #c41e3f !important;
+}
+
+/* Improve spacing in daily totals */
+#dailyTotals div {
+    margin-bottom: 8px;
+    padding: 5px;
+    border-bottom: 1px solid #eee;
+}
+
+#dailyTotals div:last-child {
+    border-bottom: none;
+}
+
+/* Adăugăm sau actualizăm următoarele stiluri */
+
+/* Butonul de toggle pentru date sumative */
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.toggle-btn {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.2s ease;
+}
+
+.toggle-btn:hover {
+    background-color: #365899;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.toggle-btn i {
+    transition: transform 0.3s ease;
+}
+
+.toggle-btn.active i {
+    transform: rotate(180deg);
+}
+
+/* Stilizare pentru caseta cu total */
+.total-box {
+    background: linear-gradient(135deg, #4267B2 0%, #365899 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.total-box::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    bottom: -10px;
+    left: -10px;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0) 50%);
+    pointer-events: none;
+}
+
+/* Stilizare pentru tabel */
+.table-container {
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.data-table thead {
+    background-color: #4267B2;
+    color: white;
+}
+
+.data-table th, 
+.data-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.data-table tbody tr:nth-child(even) {
+    background-color: #f5f7fa;
+}
+
+.data-table tbody tr:hover {
+    background-color: #e9ebf0;
+}
+
+.data-table tfoot {
+    font-weight: bold;
+    background-color: #f0f2f5;
+}
+
+/* Stilizare pentru carduri */
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 16px;
+    margin-top: 1rem;
+}
+
+.manager-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.manager-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.manager-name {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    margin-bottom: 8px;
+    border-bottom: 2px solid #4267B2;
+    padding-bottom: 5px;
+}
+
+.manager-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.stat {
+    text-align: center;
+}
+
+.stat-value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #4267B2;
+}
+
+.stat-label {
+    font-size: 0.8em;
+    color: #666;
+}
+
+/* Efecte de animație pentru afișarea detaliilor */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#detailsContainer {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Styles for sales entries */
+#entriesList {
+  list-style: none;
+  padding: 0;
+}
+
+.sales-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #4CAF50;
+}
+
+.entry-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn, .delete-btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit-btn {
+  background-color: #2196F3;
+  color: white;
+}
+
+.delete-btn {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+#cancelEdit {
+  margin-left: 10px;
+  background-color: #9e9e9e;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.notification {
+    display: none;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    min-width: 300px;
+    border-left: 4px solid #4267B2;
+    animation: slideIn 0.5s ease-out;
+}
+
+.notification.show {
+    display: block;
+}
+
+.notification-content {
+    position: relative;
+}
+
+.notification h3 {
+    margin: 0 0 10px 0;
+    color: #4267B2;
+    font-size: 16px;
+}
+
+.notification p {
+    margin: 5px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.celebration-notification,
+.new-order-notification {
+    display: none;
+    position: fixed;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+    min-width: 300px;
+    animation: bounceIn 0.5s ease-out;
+    background: linear-gradient(135deg, #ffffff 0%, #f5f5f5 100%);
+    font-size: 16px;
+    text-align: center;
+}
+
+.celebration-notification {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 3px solid #FFD700;
+    background: linear-gradient(135deg, #fff4d4 0%, #ffe7a0 100%);
+}
+
+.new-order-notification {
+    top: 20px;
+    right: 20px;
+    border-left: 4px solid #4267B2;
+}
+
+.celebration-notification.show,
+.new-order-notification.show {
+    display: block;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 0.9;
+        transform: scale(1.1);
+    }
+    80% {
+        opacity: 1;
+        transform: scale(0.89);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.emoji {
+    font-size: 24px;
+    margin: 0 5px;
+}
+
+.celebration-notification {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(135deg, #fff4d4 0%, #ffe7a0 100%);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    min-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    border: 3px solid #FFD700;
+    animation: bounceIn 0.5s ease-out;
+}
+
+.celebration-notification.show {
+    display: block;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.3);
+    }
+    50% {
+        opacity: 0.9;
+        transform: translate(-50%, -50%) scale(1.1);
+    }
+    80% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(0.89);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
+    }
+}
+
+/* Header actions */
+.header-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.refresh-btn {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    transition: background-color 0.3s;
+}
+
+.refresh-btn:hover {
+    background-color: #365899;
+}
+
+.data-timestamp {
+    font-size: 13px;
+    color: #666;
+}
