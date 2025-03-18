@@ -1,0 +1,4235 @@
+{
+  "db": true,
+  "amo_domain": "edumd.kommo.com",
+  "notification_patterns": [],
+  "amo": true,
+  "currency_symbol": "L",
+  "performer_id": 32848355,
+  "user_bills": [
+    {
+      "id": 8174,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Marinuța Nicon",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Offline",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxNzQsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20660085,
+      "lead": "Marinuța Nicon",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20660085",
+      "related_goods": [
+        {
+          "id": 133025,
+          "name": "Grup offline de 3 elevi (288 MDL/oră)",
+          "sku": "off_3_new",
+          "price": "288",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 2880,
+      "total_discount": 0
+    },
+    {
+      "id": 8183,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Iulia Buzila",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxODMsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 18771000,
+      "lead": "Roșca Chira",
+      "lead_link": "https://edumd.kommo.com/leads/detail/18771000",
+      "related_goods": [
+        {
+          "id": 133035,
+          "name": "Grup online de 3 elevi (258 MDL/oră)",
+          "sku": "on_3_new",
+          "price": "258",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 2580,
+      "total_discount": 0
+    },
+    {
+      "id": 8182,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Adriana Cașcaval",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Offline",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxODIsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 16373376,
+      "lead": "Cașcaval Elisa OC",
+      "lead_link": "https://edumd.kommo.com/leads/detail/16373376",
+      "related_goods": [
+        {
+          "id": 128412,
+          "name": "Meditatii la disciplinele scolare",
+          "price": "1",
+          "sku": "allmmex",
+          "unit": "",
+          "amount": 1000,
+          "discount": 0
+        }
+      ],
+      "total_price": 1000,
+      "total_discount": 0
+    },
+    {
+      "id": 8181,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Sergiu Luncari",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Online",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxODEsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20154555,
+      "lead": "Luncari Sergiu",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20154555",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 1980,
+      "total_discount": 0
+    },
+    {
+      "id": 8180,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Andreea Timotin",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxODAsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 17308066,
+      "lead": "Timotin Andreea",
+      "lead_link": "https://edumd.kommo.com/leads/detail/17308066",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 1980,
+      "total_discount": 0
+    },
+    {
+      "id": 8179,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Sveta Vasilika",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxNzksInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20017669,
+      "lead": "Vasilica Alexandra (O.C)",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20017669",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 1980,
+      "total_discount": 0
+    },
+    {
+      "id": 8178,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Inga Jeleznesc",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxNzgsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 21080027,
+      "lead": "Jelezneac Laurențiu",
+      "lead_link": "https://edumd.kommo.com/leads/detail/21080027",
+      "related_goods": [
+        {
+          "id": 133023,
+          "name": "Grup offline de 6 elevi (218 MDL/oră)",
+          "sku": "off_6_new",
+          "price": "218",
+          "unit": "",
+          "amount": 5,
+          "discount": 8
+        }
+      ],
+      "total_price": 1002.8,
+      "total_discount": 8
+    },
+    {
+      "id": 8176,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Jelezneac Inga",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxNzYsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 21079671,
+      "lead": "Jelezneac Darius",
+      "lead_link": "https://edumd.kommo.com/leads/detail/21079671",
+      "related_goods": [
+        {
+          "id": 133025,
+          "name": "Grup offline de 3 elevi (288 MDL/oră)",
+          "sku": "off_3_new",
+          "price": "288",
+          "unit": "",
+          "amount": 5,
+          "discount": 8
+        }
+      ],
+      "total_price": 1324.8,
+      "total_discount": 8
+    },
+    {
+      "id": 8175,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Viola Julea",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjgxNzUsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20000637,
+      "lead": "Calancea Damian",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20000637",
+      "related_goods": [
+        {
+          "id": 133035,
+          "name": "Grup online de 3 elevi (258 MDL/oră)",
+          "sku": "on_3_new",
+          "price": "258",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 2580,
+      "total_discount": 0
+    },
+    {
+      "id": 4687,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Natalia Odobesco",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Offline",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjQ2ODcsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 17425924,
+      "lead": "Odobesco Vlada (AL)",
+      "lead_link": "https://edumd.kommo.com/leads/detail/17425924",
+      "related_goods": [
+        {
+          "id": 126439,
+          "name": "Premium 3 elevi (218,00 MDL/oră)",
+          "sku": "ex_off_prem3",
+          "price": "218",
+          "unit": "",
+          "amount": 7,
+          "discount": 0
+        }
+      ],
+      "total_price": 1526,
+      "total_discount": 0
+    },
+    {
+      "id": 7565,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Veronica Gafenco",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Offline",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjc1NjUsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20453663,
+      "lead": "Gafenco Gheorghe",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20453663",
+      "related_goods": [
+        {
+          "id": 133023,
+          "name": "Grup offline de 6 elevi (218 MDL/oră)",
+          "sku": "off_6_new",
+          "price": "218",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 2180,
+      "total_discount": 0
+    },
+    {
+      "id": 7080,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "cash",
+      "customer": "Rotaru Maria",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjcwODAsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20314063,
+      "lead": "Rotaru Eleonora BC",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20314063",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 4,
+          "discount": 0
+        }
+      ],
+      "total_price": 792,
+      "total_discount": 0
+    },
+    {
+      "id": 7060,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Inga Bîrjac",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Online",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjcwNjAsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20656229,
+      "lead": "Brîjac Arina",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20656229",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 10,
+          "discount": 8
+        }
+      ],
+      "total_price": 1821.6,
+      "total_discount": 8
+    },
+    {
+      "id": 7059,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Inga Bîrjac",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "EXAMEN.MD Online",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjcwNTksInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 20656229,
+      "lead": "Brîjac Arina",
+      "lead_link": "https://edumd.kommo.com/leads/detail/20656229",
+      "related_goods": [
+        {
+          "id": 133035,
+          "name": "Grup online de 3 elevi (258 MDL/oră)",
+          "sku": "on_3_new",
+          "price": "258",
+          "unit": "",
+          "amount": 10,
+          "discount": 8
+        }
+      ],
+      "total_price": 2373.6,
+      "total_discount": 8
+    },
+    {
+      "id": 6515,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Doina Comerzan",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjY1MTUsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 16538278,
+      "lead": "Comerzan Mădălina (V.A)",
+      "lead_link": "https://edumd.kommo.com/leads/detail/16538278",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 1980,
+      "total_discount": 0
+    },
+    {
+      "id": 6305,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Tatiana",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjYzMDUsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 19108922,
+      "lead": "Stratulat Nicoleta",
+      "lead_link": "https://edumd.kommo.com/leads/detail/19108922",
+      "related_goods": [
+        {
+          "id": 133035,
+          "name": "Grup online de 3 elevi (258 MDL/oră)",
+          "sku": "on_3_new",
+          "price": "258",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 2580,
+      "total_discount": 0
+    },
+    {
+      "id": 6273,
+      "creation_date": "2025-03-12",
+      "payment_date": null,
+      "payment_method": "acquiring",
+      "customer": "Iurii Calestru",
+      "payment_status": "waiting",
+      "bill_type": "sell",
+      "branch_name": "MATEMATICA.MD",
+      "comment": "",
+      "link": "https://alfaamo.ru/billservice/payments/mteach/?data=eyJ1c2VyX2JpbGxfaWQiOjYyNzMsInVzZXJfaWQiOjE4Nn0=",
+      "amo_lead_id": 18717020,
+      "lead": "Calestru Marius (AL)",
+      "lead_link": "https://edumd.kommo.com/leads/detail/18717020",
+      "related_goods": [
+        {
+          "id": 133033,
+          "name": "Grup online de 6 elevi (198 MDL/oră)",
+          "sku": "on_6_new",
+          "price": "198",
+          "unit": "",
+          "amount": 10,
+          "discount": 0
+        }
+      ],
+      "total_price": 1980,
+      "total_discount": 0
+    }
+  ],
+  "goods": {
+    "134183 ": {
+      "id": 134183,
+      "name": "Grup offline de 5 elevi (228 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1738406177,
+      "updated_at": 1738406182,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "off_5_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup offline de 5 elevi (228 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "228"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/134183?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "134181 ": {
+      "id": 134181,
+      "name": "Grup online de 5 elevi (218 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1738406133,
+      "updated_at": 1738406138,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "on_5_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup online de 5 elevi (218 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "218"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/134181?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133041 ": {
+      "id": 133041,
+      "name": "Lecții individuale online (548 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735822290,
+      "updated_at": 1735822290,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "on_1_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Lecții individuale online (548 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "548"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133041?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133039 ": {
+      "id": 133039,
+      "name": "Grup online de 2 elevi (328 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735822254,
+      "updated_at": 1735822254,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "on_2_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup online de 2 elevi (328 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "328"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133039?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133037 ": {
+      "id": 133037,
+      "name": "Grup online de 4 elevi (228 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735822225,
+      "updated_at": 1735822230,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "on_4_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup online de 4 elevi (228 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "228"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133037?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133035 ": {
+      "id": 133035,
+      "name": "Grup online de 3 elevi (258 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735822180,
+      "updated_at": 1735822180,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "on_3_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup online de 3 elevi (258 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "258"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133035?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133033 ": {
+      "id": 133033,
+      "name": "Grup online de 6 elevi (198 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735822034,
+      "updated_at": 1735822034,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "on_6_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup online de 6 elevi (198 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "198"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133033?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133031 ": {
+      "id": 133031,
+      "name": "Lecții individuale offline (608 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735821985,
+      "updated_at": 1735821985,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "off_1_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Lecții individuale offline (608 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "608"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133031?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133029 ": {
+      "id": 133029,
+      "name": "Grup offline de 2 elevi (348 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735821904,
+      "updated_at": 1735821904,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "off_2_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup offline de 2 elevi (348 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "348"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133029?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133027 ": {
+      "id": 133027,
+      "name": "Grup offline de 4 elevi (248 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735821863,
+      "updated_at": 1735821930,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "off_4_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup offline de 4 elevi (248 MDL/oră)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "248"
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133027?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133025 ": {
+      "id": 133025,
+      "name": "Grup offline de 3 elevi (288 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735821795,
+      "updated_at": 1735821821,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "off_3_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "288"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup offline de 3 elevi (288 MDL/oră)"
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133025?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133023 ": {
+      "id": 133023,
+      "name": "Grup offline de 6 elevi (218 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735821356,
+      "updated_at": 1735821559,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "off_6_new"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "218"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Grup offline de 6 elevi (218 MDL/oră)"
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133023?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "133021 ": {
+      "id": 133021,
+      "name": "Prieteni 4 elevi (188,00 MDL/oră)",
+      "created_by": 11690447,
+      "updated_by": 11690447,
+      "created_at": 1735818040,
+      "updated_at": 1735818256,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prient4"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 4 elevi (188,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "188"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/133021?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "128412 ": {
+      "id": 128412,
+      "name": "Meditatii la disciplinele scolare",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1725999858,
+      "updated_at": 1726218095,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Meditatii la disciplinele scolare"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "All products",
+              "enum_id": 46232,
+              "enum_code": null
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "1"
+            }
+          ]
+        },
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "allmmex"
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/128412?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126455 ": {
+      "id": 126455,
+      "name": "Standard, 6 elevi (168,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355651,
+      "updated_at": 1722592944,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_st6"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Standard, 6 elevi (168,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "168"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126455?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126453 ": {
+      "id": 126453,
+      "name": "Prieteni 8 elevi (128,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11690447,
+      "created_at": 1722355610,
+      "updated_at": 1735810981,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_8"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 8 elevi (128,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "128"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126453?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126451 ": {
+      "id": 126451,
+      "name": "Prieteni 7 elevi (148,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355574,
+      "updated_at": 1722592958,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prient7"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 7 elevi (148,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "148"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126451?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126449 ": {
+      "id": 126449,
+      "name": "Prieteni 6 elevi (168,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355522,
+      "updated_at": 1722592968,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prient6"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 6 elevi (168,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "168"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126449?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126447 ": {
+      "id": 126447,
+      "name": "Prieteni 5 elevi (178,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355484,
+      "updated_at": 1722592975,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prient5"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 5 elevi (178,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "178"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126447?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126443 ": {
+      "id": 126443,
+      "name": "Prieteni 3 elevi (218,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355404,
+      "updated_at": 1722592992,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prient3"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 3 elevi (218,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "218"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126443?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126441 ": {
+      "id": 126441,
+      "name": "Prieteni 2 elevi  (268,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355370,
+      "updated_at": 1722592998,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prient2"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 2 elevi (268,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "268"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126441?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126439 ": {
+      "id": 126439,
+      "name": "Premium 3 elevi (218,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355318,
+      "updated_at": 1722593004,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_prem3"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Premium 3 elevi (218,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "218"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126439?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126437 ": {
+      "id": 126437,
+      "name": "Individual 318 (318,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355272,
+      "updated_at": 1722593010,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_off_ind"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Individual 318 (318,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "318"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Offline",
+              "enum_id": 81285,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126437?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126435 ": {
+      "id": 126435,
+      "name": "Standard 6 elevi (150,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355205,
+      "updated_at": 1722593016,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_st6"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Standard 6 elevi (150,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "150"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126435?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126433 ": {
+      "id": 126433,
+      "name": "Prieteni 8 elevi (100,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355165,
+      "updated_at": 1722593025,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient8"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 8 elevi (100,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126433?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126431 ": {
+      "id": 126431,
+      "name": "Prieteni 7 elevi (130,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355111,
+      "updated_at": 1722593032,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient7"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 7 elevi (130,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "130"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126431?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126429 ": {
+      "id": 126429,
+      "name": "Prieteni 6 elevi (150,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355071,
+      "updated_at": 1722593038,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient6"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 6 elevi (150,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "150"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126429?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126427 ": {
+      "id": 126427,
+      "name": "Prieteni 5 elevi (165,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355037,
+      "updated_at": 1722593045,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient5"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 5 elevi (165,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "165"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126427?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126425 ": {
+      "id": 126425,
+      "name": "Prieteni 4 elevi (175,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722355002,
+      "updated_at": 1722593055,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient4"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 4 elevi (175,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "175"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126425?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126423 ": {
+      "id": 126423,
+      "name": "Prieteni 3 elevi (200,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354949,
+      "updated_at": 1722593061,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient3"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 3 elevi (200,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126423?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126421 ": {
+      "id": 126421,
+      "name": "Prieteni 2 elevi (250,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354902,
+      "updated_at": 1722593069,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prient2"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Prieteni 2 elevi (250,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "250"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126421?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126419 ": {
+      "id": 126419,
+      "name": "Premium 3 elevi (200,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354826,
+      "updated_at": 1722593078,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_prem3"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Premium 3 elevi (200,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126419?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126417 ": {
+      "id": 126417,
+      "name": "Individual (300,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354743,
+      "updated_at": 1722593085,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ex_on_ind"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Individual (300,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "300"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "EXAMEN.MD Online",
+              "enum_id": 81284,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126417?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126415 ": {
+      "id": 126415,
+      "name": "Matematica Standard 6 elevi (150,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354660,
+      "updated_at": 1722593092,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_st6"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Standard, 6 elevi (150,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "150"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126415?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126413 ": {
+      "id": 126413,
+      "name": "Matematica Prieteni 8 elevi (100,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354563,
+      "updated_at": 1722593099,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet8"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 8 elevi (100,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "100"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126413?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126411 ": {
+      "id": 126411,
+      "name": "Matematica Prieteni 7 elevi (130,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354454,
+      "updated_at": 1722593104,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet7"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 7 elevi (130,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "130"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126411?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126409 ": {
+      "id": 126409,
+      "name": "Matematica Prieteni 6 elevi (150,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354407,
+      "updated_at": 1722593111,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet6"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 6 elevi (150,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "150"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126409?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126407 ": {
+      "id": 126407,
+      "name": "Matematica Prieteni 5 elevi (165,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354354,
+      "updated_at": 1722593117,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet5"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 5 elevi (165,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "165"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126407?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126405 ": {
+      "id": 126405,
+      "name": "Matematica Prieteni 4 elevi (175,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354300,
+      "updated_at": 1722593124,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet4"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 4 elevi (175,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "175"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126405?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126403 ": {
+      "id": 126403,
+      "name": "Matematica Prieteni 3 elevi (200,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354252,
+      "updated_at": 1722593131,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet3"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 3 elevi (200,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126403?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126401 ": {
+      "id": 126401,
+      "name": "Matematica Prieteni 2 elevi (250,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354078,
+      "updated_at": 1722593137,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_priet2"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Prieteni 2 elevi (250,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "250"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126401?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126399 ": {
+      "id": 126399,
+      "name": "Matematica Premium 3 elevi (200,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722354023,
+      "updated_at": 1722593144,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_prem3"
+            }
+          ]
+        },
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Premium 3 elevi (200,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "200"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126399?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    },
+    "126354 ": {
+      "id": 126354,
+      "name": "Matematica Individual (300,00 MDL/oră)",
+      "created_by": 11261651,
+      "updated_by": 11261651,
+      "created_at": 1722085301,
+      "updated_at": 1722593154,
+      "is_deleted": null,
+      "custom_fields_values": [
+        {
+          "field_id": 1113706,
+          "field_name": "Description",
+          "field_code": "DESCRIPTION",
+          "field_type": "textarea",
+          "values": [
+            {
+              "value": "Matematica Individual (300,00 за 1 шт. по 60 мин)"
+            }
+          ]
+        },
+        {
+          "field_id": 1113708,
+          "field_name": "Price",
+          "field_code": "PRICE",
+          "field_type": "price",
+          "values": [
+            {
+              "value": "300"
+            }
+          ]
+        },
+        {
+          "field_id": 1113704,
+          "field_name": "SKU",
+          "field_code": "SKU",
+          "field_type": "text",
+          "values": [
+            {
+              "value": "ma_ind"
+            }
+          ]
+        },
+        {
+          "field_id": 1113710,
+          "field_name": "Group",
+          "field_code": "GROUP",
+          "field_type": "category",
+          "values": [
+            {
+              "value": "MATEMATICA.MD",
+              "enum_id": 81282,
+              "enum_code": null
+            }
+          ]
+        }
+      ],
+      "catalog_id": 46914,
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/catalogs/46914/elements/126354?page=1&limit=250"
+        }
+      },
+      "_embedded": {
+        "warning": {
+          "message": null
+        }
+      }
+    }
+  },
+  "contacts": {
+    "21423872 ": {
+      "id": 21423872,
+      "name": "Natalia Odobesco",
+      "first_name": "Natalia",
+      "last_name": "Odobesco",
+      "responsible_user_id": 11940355,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 11940355,
+      "created_at": 1727982613,
+      "updated_at": 1728304621,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37379911566",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/21423872?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "22767304 ": {
+      "id": 22767304,
+      "name": "Iulia Buzila",
+      "first_name": "Iulia",
+      "last_name": "Buzila",
+      "responsible_user_id": 11982627,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 11982627,
+      "created_at": 1730456971,
+      "updated_at": 1730457662,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369645562.",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/22767304?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "23147512 ": {
+      "id": 23147512,
+      "name": "Tatiana",
+      "first_name": "Tatiana",
+      "last_name": "",
+      "responsible_user_id": 12014055,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12014055,
+      "created_at": 1731992172,
+      "updated_at": 1734423165,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369061170",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/23147512?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "24021595 ": {
+      "id": 24021595,
+      "name": "Viola Julea",
+      "first_name": "Viola",
+      "last_name": "Julea",
+      "responsible_user_id": 11940355,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 11940355,
+      "created_at": 1736413823,
+      "updated_at": 1736930629,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37379531743",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1113678,
+          "field_name": "Email",
+          "field_code": "EMAIL",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "damiancalancea@gmail.com",
+              "enum_id": 792586,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24021595?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "21303804 ": {
+      "id": 21303804,
+      "name": "Andreea Timotin",
+      "first_name": "Andreea",
+      "last_name": "Timotin",
+      "responsible_user_id": 11875143,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 11875143,
+      "created_at": 1727857479,
+      "updated_at": 1738248453,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37368812479",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/21303804?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "24346647 ": {
+      "id": 24346647,
+      "name": "Rotaru Maria",
+      "first_name": "Rotaru Maria",
+      "last_name": "",
+      "responsible_user_id": 11976355,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12564672,
+      "created_at": 1737903401,
+      "updated_at": 1738766892,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113678,
+          "field_name": "Email",
+          "field_code": "EMAIL",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "Maria7rotaru@gmail.com",
+              "enum_id": 792586,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37360631627",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            },
+            {
+              "value": "+37379059500",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24346647?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "22715410 ": {
+      "id": 22715410,
+      "name": "Iurii Calestru",
+      "first_name": "Iurii",
+      "last_name": "Calestru",
+      "responsible_user_id": 11940355,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 11887095,
+      "created_at": 1730233907,
+      "updated_at": 1739017159,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369208313",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            },
+            {
+              "value": "+37379627230",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/22715410?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "24481517 ": {
+      "id": 24481517,
+      "name": "Veronica Gafenco",
+      "first_name": "Veronica",
+      "last_name": "Gafenco",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12564672,
+      "created_at": 1738675397,
+      "updated_at": 1739444047,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369344404",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24481517?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "24694461 ": {
+      "id": 24694461,
+      "name": "Inga Bîrjac",
+      "first_name": "Inga",
+      "last_name": "Bîrjac",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12455256,
+      "created_at": 1739431494,
+      "updated_at": 1739549042,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369920678",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            },
+            {
+              "value": "+37369909057",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1113678,
+          "field_name": "Email",
+          "field_code": "EMAIL",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "arinabr888@gmail.com",
+              "enum_id": 792586,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24694461?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "24038289 ": {
+      "id": 24038289,
+      "name": "Sveta Vasilika",
+      "first_name": "Sveta",
+      "last_name": "Vasilika",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12407679,
+      "created_at": 1736495577,
+      "updated_at": 1739778717,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369036180",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1113678,
+          "field_name": "Email",
+          "field_code": "EMAIL",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "kosmos.svete@mail.ru",
+              "enum_id": 792586,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24038289?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "20541944 ": {
+      "id": 20541944,
+      "name": "Doina Comerzan",
+      "first_name": "Doina",
+      "last_name": "Comerzan",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12407679,
+      "created_at": 1726582165,
+      "updated_at": 1739778740,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37360210235",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1113678,
+          "field_name": "Email",
+          "field_code": "EMAIL",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "2nita18@gmail.com",
+              "enum_id": 792586,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/20541944?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "20377736 ": {
+      "id": 20377736,
+      "name": "Adriana Cașcaval",
+      "first_name": "Adriana",
+      "last_name": "Cașcaval",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 11887095,
+      "updated_by": 12407679,
+      "created_at": 1726234828,
+      "updated_at": 1739778750,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369721006",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1113678,
+          "field_name": "Email",
+          "field_code": "EMAIL",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "andreeaelisa8@gmail.com",
+              "enum_id": 792586,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/20377736?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "24698181 ": {
+      "id": 24698181,
+      "name": "Marinuța Nicon",
+      "first_name": "",
+      "last_name": "",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12407679,
+      "created_at": 1739456607,
+      "updated_at": 1740172071,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37378605654",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        },
+        {
+          "field_id": 1972155,
+          "field_name": "Source phone",
+          "field_code": null,
+          "field_type": "text",
+          "values": [
+            {
+              "value": "+37376611888"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24698181?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [
+          {
+            "id": 110983,
+            "name": "autogenerated",
+            "color": null
+          }
+        ],
+        "companies": []
+      }
+    },
+    "24178159 ": {
+      "id": 24178159,
+      "name": "Sergiu Luncari",
+      "first_name": "Sergiu",
+      "last_name": "Luncari",
+      "responsible_user_id": 12014055,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12564672,
+      "created_at": 1737112114,
+      "updated_at": 1740574557,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37376788763",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/24178159?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    },
+    "25116971 ": {
+      "id": 25116971,
+      "name": "Jelezneac Inga",
+      "first_name": "Jelezneac Inga",
+      "last_name": "",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 0,
+      "updated_by": 12455256,
+      "created_at": 1741017417,
+      "updated_at": 1741019027,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1972155,
+          "field_name": "Source phone",
+          "field_code": null,
+          "field_type": "text",
+          "values": [
+            {
+              "value": "+37379109888"
+            }
+          ]
+        },
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369088168",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            },
+            {
+              "value": "+37369242505",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/25116971?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [
+          {
+            "id": 110983,
+            "name": "autogenerated",
+            "color": null
+          }
+        ],
+        "companies": []
+      }
+    },
+    "25117323 ": {
+      "id": 25117323,
+      "name": "Inga Jeleznesc",
+      "first_name": "Inga",
+      "last_name": "Jeleznesc",
+      "responsible_user_id": 12455256,
+      "group_id": 540095,
+      "created_by": 12455256,
+      "updated_by": 12455256,
+      "created_at": 1741018929,
+      "updated_at": 1741019083,
+      "closest_task_at": null,
+      "is_deleted": false,
+      "is_unsorted": false,
+      "custom_fields_values": [
+        {
+          "field_id": 1113676,
+          "field_name": "Phone",
+          "field_code": "PHONE",
+          "field_type": "multitext",
+          "values": [
+            {
+              "value": "+37369088168",
+              "enum_id": 792574,
+              "enum_code": "WORK"
+            }
+          ]
+        }
+      ],
+      "account_id": 32848355,
+      "_links": {
+        "self": {
+          "href": "https://edumd.kommo.com/api/v4/contacts/25117323?page=1&filter%5Bid%5D%5B0%5D=24698181&filter%5Bid%5D%5B1%5D=22767304&filter%5Bid%5D%5B2%5D=20377736&filter%5Bid%5D%5B3%5D=24178159&filter%5Bid%5D%5B4%5D=21303804&filter%5Bid%5D%5B5%5D=24038289&filter%5Bid%5D%5B6%5D=25117323&filter%5Bid%5D%5B7%5D=25116971&filter%5Bid%5D%5B8%5D=24021595&filter%5Bid%5D%5B9%5D=21423872&filter%5Bid%5D%5B10%5D=24481517&filter%5Bid%5D%5B11%5D=24346647&filter%5Bid%5D%5B12%5D=24694461&filter%5Bid%5D%5B13%5D=20541944&filter%5Bid%5D%5B14%5D=23147512&filter%5Bid%5D%5B15%5D=22715410&limit=250"
+        }
+      },
+      "_embedded": {
+        "tags": [],
+        "companies": []
+      }
+    }
+  },
+  "branches_names": [
+    "Matematica.md",
+    "",
+    "EXAMEN.MD Offline",
+    "EXAMEN.MD Online"
+  ]
+}

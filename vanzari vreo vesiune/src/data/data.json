@@ -1,0 +1,141 @@
+{
+  "timestamp": "2025-03-12T10:15:34.698Z",
+  "bills": [
+    {
+      "customer": "Marinuța Nicon",
+      "creation_date": "2025-03-12",
+      "total_price": 2880,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Iulia Buzila",
+      "creation_date": "2025-03-12",
+      "total_price": 2580,
+      "manager": {
+        "responsible_user_id": 11982627
+      }
+    },
+    {
+      "customer": "Adriana Cașcaval",
+      "creation_date": "2025-03-12",
+      "total_price": 1000,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Sergiu Luncari",
+      "creation_date": "2025-03-12",
+      "total_price": 1980,
+      "manager": {
+        "responsible_user_id": 12014055
+      }
+    },
+    {
+      "customer": "Andreea Timotin",
+      "creation_date": "2025-03-12",
+      "total_price": 1980,
+      "manager": {
+        "responsible_user_id": 11875143
+      }
+    },
+    {
+      "customer": "Sveta Vasilika",
+      "creation_date": "2025-03-12",
+      "total_price": 1980,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Inga Jeleznesc",
+      "creation_date": "2025-03-12",
+      "total_price": 1002.8,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Jelezneac Inga",
+      "creation_date": "2025-03-12",
+      "total_price": 1324.8,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Viola Julea",
+      "creation_date": "2025-03-12",
+      "total_price": 2580,
+      "manager": {
+        "responsible_user_id": 11940355
+      }
+    },
+    {
+      "customer": "Natalia Odobesco",
+      "creation_date": "2025-03-12",
+      "total_price": 1526,
+      "manager": {
+        "responsible_user_id": 11940355
+      }
+    },
+    {
+      "customer": "Veronica Gafenco",
+      "creation_date": "2025-03-12",
+      "total_price": 2180,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Rotaru Maria",
+      "creation_date": "2025-03-12",
+      "total_price": 792,
+      "manager": {
+        "responsible_user_id": 11976355
+      }
+    },
+    {
+      "customer": "Inga Bîrjac",
+      "creation_date": "2025-03-12",
+      "total_price": 1821.6,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Inga Bîrjac",
+      "creation_date": "2025-03-12",
+      "total_price": 2373.6,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Doina Comerzan",
+      "creation_date": "2025-03-12",
+      "total_price": 1980,
+      "manager": {
+        "responsible_user_id": 12455256
+      }
+    },
+    {
+      "customer": "Tatiana",
+      "creation_date": "2025-03-12",
+      "total_price": 2580,
+      "manager": {
+        "responsible_user_id": 12014055
+      }
+    },
+    {
+      "customer": "Iurii Calestru",
+      "creation_date": "2025-03-12",
+      "total_price": 1980,
+      "manager": {
+        "responsible_user_id": 11940355
+      }
+    }
+  ]
+}

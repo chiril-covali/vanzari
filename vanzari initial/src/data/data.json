@@ -1,0 +1,28 @@
+{
+  "sales": [
+    {
+      "date": "2025-03-11",
+      "manager_name": "ANGHEL CRISTINA",
+      "amount": 100,
+      "id": "1741700409375"
+    },
+    {
+      "date": "2025-03-11",
+      "manager_name": "CRISTINA CERCHEZ",
+      "amount": 3000,
+      "id": "1741700415007"
+    },
+    {
+      "date": "2025-03-11",
+      "manager_name": "ARIADNA PRICINOC",
+      "amount": 200,
+      "id": "1741700421624"
+    },
+    {
+      "date": "2025-03-11",
+      "manager_name": "ANGHEL CRISTINA",
+      "amount": 11,
+      "id": "1741700426592"
+    }
+  ]
+}
